@@ -11,7 +11,6 @@
     --search-input-bg: #ffffff;
     --search-bg: #F0F2F9;
 
-
     --text-color:#4C5980;
     --text-color-secondary: #ffffff;
     --text-color-transparent: #4C598010;
@@ -41,9 +40,6 @@
     --green-100: #3DBBC5;
 
     --line-color: #9C9EB910;
-
-    
-
 
     --modal-header-bg: #F0F0F0;
 
@@ -88,9 +84,6 @@
     --brown: #ECF0FF;
     --brown-700: #ECF0FF;
 
-    
-
-
     --modal-header-bg: #191C1D;
 
     --classes-bg: #393939;
@@ -132,7 +125,7 @@ body {
     line-height: 21px;
     font-weight: 400;
     color: var(--text-color);
-    min-height: 100vh;
+    /* min-height: 100vh; */
     overscroll-behavior: none;
 }
 
@@ -287,7 +280,7 @@ h6 {
 .layout {
     display: flex;
     max-width: 1200px;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-color: var(--main-content-background);
     border-right: 1px solid var(--gray-100);
     border-left: 1px solid var(--gray-100);

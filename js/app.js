@@ -1,5 +1,16 @@
 'use-strict';
 
+// 
+const layout = document.querySelector('.layout');
+let screenHeight = window.innerHeight;
+layout.style.height = `${screenHeight}px`;
+
+window.addEventListener('resize', () => {
+  screenHeight = window.innerHeight;
+  layout.style.height = `${screenHeight}px`;
+  console.log(screenHeight);
+})
+
 // Toggle Dropdown
 const dropdownBtn = document.querySelector('.search__dropwdown-btn');
 const dropdownCloseBtn = document.querySelector('.search__dropwdown-close');
