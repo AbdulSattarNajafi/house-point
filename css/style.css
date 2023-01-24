@@ -291,7 +291,6 @@ h6 {
 
 @media screen and (max-width: 1199.98px) {
     .layout {
-        overflow: hidden;
         border: none;
     }
 }
@@ -799,9 +798,7 @@ h6 {
 }
 
 .houses-wrapper {
-    height: 100%;
     padding: 40px;
-    overflow-y: auto;
 }
 
 .houses__cards {
@@ -885,15 +882,13 @@ h6 {
 @media screen and (max-width: 991.98px) {
     .houses {
         height: calc(100% - 78px);
-    }
-    .houses-wrapper {
-        padding-bottom: 75px;
+        padding-bottom: 63px;
     }
 }
 
 @media screen and (max-width: 767.98px) {
     .houses {
-        height: calc(100% - 74px);
+        height: calc(100% - 73px);
     }
     .houses__cards {
         grid-template-columns: repeat(2, 1fr);
@@ -906,7 +901,7 @@ h6 {
 
 @media screen and (max-width: 575.98px) {
     .houses {
-        height: calc(100% - 70px);
+        height: calc(100% - 73px);
     }
     .houses__card-footer {
         padding-top: 8px;
