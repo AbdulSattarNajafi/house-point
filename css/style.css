@@ -125,7 +125,6 @@ body {
     line-height: 21px;
     font-weight: 400;
     color: var(--text-color);
-    /* min-height: 100vh; */
     overscroll-behavior: none;
 }
 
@@ -280,7 +279,6 @@ h6 {
 .layout {
     display: flex;
     max-width: 1200px;
-    /* min-height: 100vh; */
     background-color: var(--main-content-background);
     border-right: 1px solid var(--gray-100);
     border-left: 1px solid var(--gray-100);
@@ -2955,8 +2953,8 @@ h6 {
 
 @media screen and (max-width: 991.98px) {
     .classes {
-        height: calc(100% - 63px);
-        padding-bottom: 75px;
+        height: calc(100% - 78px);
+        padding-bottom: 63px;
     }
     .classes__tabs-btn {
         padding: 26px 20px;
@@ -2971,6 +2969,9 @@ h6 {
 }
 
 @media screen and (max-width: 767.98px) {
+    .classes {
+        height: calc(100% - 73px);
+    }
     .classes.classes-page {
         background-color: var(--body-background);
     }

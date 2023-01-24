@@ -8,7 +8,6 @@ layout.style.height = `${screenHeight}px`;
 window.addEventListener('resize', () => {
   screenHeight = window.innerHeight;
   layout.style.height = `${screenHeight}px`;
-  console.log(screenHeight);
 })
 
 // Toggle Dropdown
