@@ -2948,7 +2948,7 @@ h6 {
 
 @media screen and (max-width: 991.98px) {
     .classes {
-        height: calc(100% - 83px);
+        height: calc(100% - 78px);
         padding-bottom: 63px;
     }
     .classes__tabs-btn {
@@ -2965,7 +2965,7 @@ h6 {
 
 @media screen and (max-width: 767.98px) {
     .classes {
-        height: calc(100% - 78px);
+        height: calc(100% - 73px);
     }
     .classes.classes-page {
         background-color: var(--body-background);
@@ -2993,6 +2993,7 @@ h6 {
     }
     .classes__main-content {
         padding-top: 0;
+        padding-bottom: 16px;
     }
     .classes__content h3 {
         font-size: 22px;
