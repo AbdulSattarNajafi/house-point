@@ -77,7 +77,7 @@
                         </li>
 
                         <li class="sidebar__menu-item">
-                            <a href="#" class="sidebar__menu-link">
+                            <a href="./news-feed.html" class="sidebar__menu-link">
                                 <span class="sidebar__menu-icon">
                                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M4.55556 15.6389H6.22222V9.94444H4.55556V15.6389ZM13.7778 15.6389H15.4444V3.97222H13.7778V15.6389ZM9.16667 15.6389H10.8333V12.3611H9.16667V15.6389ZM9.16667 9.94444H10.8333V8.27778H9.16667V9.94444ZM1.66667 20C1.22222 20 0.833333 19.8333 0.5 19.5C0.166667 19.1667 0 18.7778 0 18.3333V1.66667C0 1.22222 0.166667 0.833333 0.5 0.5C0.833333 0.166667 1.22222 0 1.66667 0H18.3333C18.7778 0 19.1667 0.166667 19.5 0.5C19.8333 0.833333 20 1.22222 20 1.66667V18.3333C20 18.7778 19.8333 19.1667 19.5 19.5C19.1667 19.8333 18.7778 20 18.3333 20H1.66667Z" fill="currentColor"/>
@@ -96,10 +96,6 @@
                                 </span>
                                 <span>Settings</span>
                             </a>
-                        </li>
-
-                        <li class="sidebar__menu-item">
-                            <button id="dark-light-mode">Dark mode</button>
                         </li>
                         
                     </ul>
@@ -125,6 +121,28 @@
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M5.21532 9.99984L11.5929 16.6136C12.0141 17.0504 11.9571 17.708 11.4658 18.0824C10.9744 18.4568 10.2346 18.4062 9.81335 17.9694L2.78212 10.6777C2.40596 10.2877 2.40596 9.71202 2.78212 9.32193L9.81335 2.03028C10.2346 1.59348 10.9744 1.5429 11.4658 1.9173C11.9571 2.29169 12.0141 2.9493 11.5929 3.38609L5.21532 9.99984Z" fill="currentColor"/>
                     </svg>
                 </a>
+
+                <div class="switch">
+                    <input class="switch__checkbox" id="darkmode" type="checkbox" />
+                    <label class="switch__label" for="darkmode">
+                        <svg class="switch__label-icon" width="1em" height="1em" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="11.9998" cy="11.9998" r="5.75375" fill="currentColor" />
+                                <g>
+                                    <circle cx="3.08982" cy="6.85502" r="1.71143" transform="rotate(-60 3.08982 6.85502)" fill="currentColor" />
+                                    <circle cx="3.0903" cy="17.1436" r="1.71143" transform="rotate(-120 3.0903 17.1436)" fill="currentColor" />
+                                    <circle cx="12" cy="22.2881" r="1.71143" fill="currentColor" />
+                                    <circle cx="20.9101" cy="17.1436" r="1.71143" transform="rotate(-60 20.9101 17.1436)" fill="currentColor" />
+                                    <circle cx="20.9101" cy="6.8555" r="1.71143" transform="rotate(-120 20.9101 6.8555)" fill="currentColor" />
+                                    <circle cx="12" cy="1.71143" r="1.71143" fill="currentColor" />
+                                </g>
+                            </circle>
+                        </svg>
+                        <svg class="switch__label-icon" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 50 50">
+                            <path d="M 43.81 29.354 C 43.688 28.958 43.413 28.626 43.046 28.432 C 42.679 28.238 42.251 28.198 41.854 28.321 C 36.161 29.886 30.067 28.272 25.894 24.096 C 21.722 19.92 20.113 13.824 21.683 8.133 C 21.848 7.582 21.697 6.985 21.29 6.578 C 20.884 6.172 20.287 6.022 19.736 6.187 C 10.659 8.728 4.691 17.389 5.55 26.776 C 6.408 36.163 13.847 43.598 23.235 44.451 C 32.622 45.304 41.28 39.332 43.816 30.253 C 43.902 29.96 43.9 29.647 43.81 29.354 Z" fill="currentColor" />
+                        </svg>
+                    </label>
+                </div>
+
                 <form class="search__form">
                     <div class="search__form-row">
                         <img src="./images/search-icon.svg" class="search__form-icon" alt="Search icon">
@@ -358,7 +376,7 @@
                 <div class="mobile-menu__dropdown-container">
                     <ul class="mobile-menu__dropdown-list">
                         <li class="mobile-menu__dropdown-item">
-                            <a href="#" class="mobile-menu__dropdown-link">
+                            <a href="./news-feed.html" class="mobile-menu__dropdown-link">
                                 <span class="icon">
                                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M4.55556 15.6389H6.22222V9.94444H4.55556V15.6389ZM13.7778 15.6389H15.4444V3.97222H13.7778V15.6389ZM9.16667 15.6389H10.8333V12.3611H9.16667V15.6389ZM9.16667 9.94444H10.8333V8.27778H9.16667V9.94444ZM1.66667 20C1.22222 20 0.833333 19.8333 0.5 19.5C0.166667 19.1667 0 18.7778 0 18.3333V1.66667C0 1.22222 0.166667 0.833333 0.5 0.5C0.833333 0.166667 1.22222 0 1.66667 0H18.3333C18.7778 0 19.1667 0.166667 19.5 0.5C19.8333 0.833333 20 1.22222 20 1.66667V18.3333C20 18.7778 19.8333 19.1667 19.5 19.5C19.1667 19.8333 18.7778 20 18.3333 20H1.66667Z" fill="currentColor"/>
